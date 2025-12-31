@@ -1,0 +1,54 @@
+:root {
+  /* Light Theme */
+  --bg-primary: #ffffff;
+  --bg-secondary: rgba(248, 249, 250, 0.8); /* Semi-transparent */
+  --text-primary: #212529;
+  --text-secondary: #6c757d;
+  --accent-color: #4A90E2; /* A nice blue */
+  --accent-hover: #357ABD;
+  --border-color: #dee2e6;
+  --card-bg: rgba(255, 255, 255, 0.9); /* Semi-transparent */
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  --font-family: 'Inter', system-ui, -apple-system, sans-serif;
+}
+
+[data-theme='dark'] {
+  /* Dark Theme */
+  --bg-primary: #0f172a;
+  --bg-secondary: rgba(30, 41, 59, 0.7); /* Semi-transparent */
+  --text-primary: #f8f9fa;
+  --text-secondary: #adb5bd;
+  --accent-color: #60A5FA;
+  --accent-hover: #93C5FD;
+  --border-color: #334155;
+  --card-bg: rgba(30, 41, 59, 0.8); /* Semi-transparent */
+  --shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--font-family);
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  transition: background-color 0.3s ease, color 0.3s ease;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+  font-family: inherit;
+}

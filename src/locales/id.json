@@ -1,0 +1,36 @@
+{
+  "navbar": {
+    "home": "Beranda",
+    "services": "Layanan",
+    "projects": "Proyek",
+    "contact": "Kontak"
+  },
+  "hero": {
+    "title": "Kami Membangun Keunggulan Digital",
+    "subtitle": "SYKOU Corporation menghadirkan solusi web dan mobile premium yang disesuaikan dengan kebutuhan bisnis Anda.",
+    "cta": "Mulai Sekarang"
+  },
+  "services": {
+    "title": "Layanan Kami",
+    "web_dev": "Pengembangan Web",
+    "web_dev_desc": "Website berkinerja tinggi yang dibangun dengan teknologi modern.",
+    "mobile_dev": "Pengembangan Mobile",
+    "mobile_dev_desc": "Aplikasi mobile native dan lintas platform.",
+    "ui_ux": "Desain UI/UX",
+    "ui_ux_desc": "Desain berpusat pada pengguna yang meningkatkan keterlibatan."
+  },
+  "projects": {
+    "title": "Proyek Unggulan",
+    "view_project": "Lihat Proyek"
+  },
+  "contact": {
+    "title": "Hubungi Kami",
+    "name": "Nama",
+    "email": "Email",
+    "message": "Pesan",
+    "send": "Kirim Pesan"
+  },
+  "footer": {
+    "rights": "© 2025 SYKOU Corporation. Hak cipta dilindungi."
+  }
+}

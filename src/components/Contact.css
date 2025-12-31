@@ -1,0 +1,103 @@
+.contact {
+  padding: 100px 20px;
+  /* background-color: var(--bg-secondary); Removed */
+}
+
+.contact-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: 50px;
+  background-color: var(--card-bg);
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: var(--shadow);
+}
+
+.contact-info {
+  background-color: var(--accent-color);
+  padding: 40px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.info-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.info-icon {
+  background-color: rgba(255, 255, 255, 0.2);
+  padding: 10px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.info-item h3 {
+  font-size: 1.1rem;
+  margin-bottom: 5px;
+}
+
+.info-item p {
+  opacity: 0.9;
+}
+
+.contact-form {
+  padding: 40px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 500;
+  color: var(--text-primary);
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid var(--border-color);
+  border-radius: 8px;
+  background-color: var(--bg-primary);
+  color: var(--text-primary);
+  font-family: inherit;
+  transition: border-color 0.3s ease;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: var(--accent-color);
+}
+
+.submit-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 30px;
+  background-color: var(--accent-color);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+  background-color: var(--accent-hover);
+}
+
+@media screen and (max-width: 768px) {
+  .contact-wrapper {
+    grid-template-columns: 1fr;
+  }
+}

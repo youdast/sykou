@@ -1,0 +1,36 @@
+{
+  "navbar": {
+    "home": "Home",
+    "services": "Services",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "We Build Digital Excellence",
+    "subtitle": "SYKOU Corporation delivers premium web and mobile solutions tailored to your business needs.",
+    "cta": "Get Started"
+  },
+  "services": {
+    "title": "Our Services",
+    "web_dev": "Web Development",
+    "web_dev_desc": "High-performance websites built with modern technologies.",
+    "mobile_dev": "Mobile Development",
+    "mobile_dev_desc": "Native and cross-platform mobile applications.",
+    "ui_ux": "UI/UX Design",
+    "ui_ux_desc": "User-centric design that drives engagement."
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "view_project": "View Project"
+  },
+  "contact": {
+    "title": "Get In Touch",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send Message"
+  },
+  "footer": {
+    "rights": "© 2025 SYKOU Corporation. All rights reserved."
+  }
+}
