@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  // Disable React DevTools in production
+  // Enable React Strict Mode
   reactStrictMode: true,
   
   // Production optimizations
@@ -12,12 +12,24 @@ const nextConfig = {
     },
   }),
 
-  // Allowed dev origins for CORS
+  // Allowed dev origins for CORS (Top level in recent Next.js versions)
   allowedDevOrigins: [
-    'http://localhost:3002',
-    'http://sykou.site',
-    'https://sykou.site',
+    'localhost:3002',
+    'sykou.site',
+    '*.sykou.site'
   ],
+
+  // Disable dev indicators
+  devIndicators: {
+    appIsrStatus: false,
+    buildActivity: false,
+    buildActivityPosition: 'bottom-right',
+  },
+
+  // Experimental features
+  experimental: {
+    // Add other experimental flags here if needed
+  },
 };
 
 export default nextConfig;
